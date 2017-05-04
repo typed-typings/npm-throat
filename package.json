@@ -4,9 +4,9 @@
     "test": "typings bundle . -o bundle && ts-node test.ts"
   },
   "devDependencies": {
-    "throat": "^2.0.2",
-    "ts-node": "^0.7.1",
-    "typescript": "^1.8.2",
-    "typings": "^0.7.11"
+    "throat": "^3.0.0",
+    "ts-node": "^3.0.3",
+    "typescript": "^2.3.2",
+    "typings": "^2.1.1"
   }
 }
