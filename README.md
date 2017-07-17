@@ -1,6 +1,8 @@
-# Typed HTTP Errors
+# Typed throat
 
-The type definition for [`http-errors`](https://github.com/jshttp/http-errors).
+The type definition for [`throat`](https://github.com/ForbesLindesay/throat).
+
+This typings is deprecating as `throat` is including its own typings.
 
 ## License
 

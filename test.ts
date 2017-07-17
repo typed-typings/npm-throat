@@ -1,10 +1,7 @@
-/// <reference path="bundle/main.d.ts" />
-/// <reference path="typings/main.d.ts" />
-
 import throat = require('throat')
 import Bluebird = require('bluebird')
 
-const fn1 = throat(2, function () {
+const fn1 = throat(2, function (): Bluebird<number> {
   return Bluebird.resolve(1)
 })
 
@@ -13,3 +10,5 @@ const fn2 = throat(Bluebird)(2, function () {
 })
 
 Bluebird.all([fn1(), fn2()]).then(console.log)
+
+const fn3 = throat(Promise)
