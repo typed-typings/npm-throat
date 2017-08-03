@@ -1,8 +1,8 @@
-# Typed throat
+# Typed Throat
 
 The type definition for [`throat`](https://github.com/ForbesLindesay/throat).
 
-This typings is deprecating as `throat` is including its own typings.
+_These typings is deprecated as `throat` includes them since v4._
 
 ## License
 
