@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "lib": [
+      "es2015",
+      "es2015.promise"
+    ],
     "noImplicitAny": true
   },
   "files": [
-    "test.ts",
-    "index.d.ts",
-    "typings/main.d.ts"
+    "test.ts"
   ]
 }

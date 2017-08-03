@@ -1,12 +1,15 @@
 {
+  "name": "@types/throat",
+  "typings": "index.d.ts",
   "private": true,
   "scripts": {
-    "test": "typings bundle . -o bundle && ts-node test.ts"
+    "test": "ts-node test.ts"
   },
   "devDependencies": {
-    "throat": "^2.0.2",
-    "ts-node": "^0.7.1",
-    "typescript": "^1.8.2",
-    "typings": "^0.7.11"
+    "@types/bluebird": "^3.5.8",
+    "@types/node": "^8.0.13",
+    "throat": "^4.1.0",
+    "ts-node": "^3.2.0",
+    "typescript": "^2.4.1"
   }
 }
